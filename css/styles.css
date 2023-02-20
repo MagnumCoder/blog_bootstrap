@@ -3,9 +3,69 @@
 }
 
 .navCabecalho .nav-item:hover {
-  background-color: blue;
+  background-color: darkblue;
+  color: white;
 }
 
 .navCabecalho .nav-item {
   padding: 15px 0px;
+}
+
+.img-publication {
+  width: 100%;
+}
+
+.img-author {
+  width: 100%;
+}
+
+.tituloAutor {
+  border-style: dashed;
+  border-width: 1px;
+  font-size: medium;
+  padding: 5px;
+}
+
+.linkInstagram {
+  background-color: white;
+  border: black dashed 2px;
+}
+
+.linkInstagram:hover {
+  background-color: darkblue;
+  color: white;
+  transition: 0.3s;
+}
+
+.countrySelect {
+  text-decoration: none;
+  color: black;
+}
+
+.countrySelect:hover {
+  color: rgb(85, 85, 227);
+}
+
+.subCaption a {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+}
+
+.firstColumn h2 {
+  font-size: 35px;
+}
+
+.link-article {
+  border: 0px;
+}
+
+.link-article:hover {
+  background-color: rgb(17, 17, 80);
+  color: white;
+  transition: 0.3s;
+}
+
+footer span {
+  color: rgb(189, 187, 187);
 }
